@@ -17,7 +17,7 @@ http://localhost:3000/sensors
 http://localhost:3000/heartbeats
 
 ### Database Chart
-![Screen Shot 2022-06-05 at 10 17 50 PM](https://user-images.githubusercontent.com/2637636/172083730-0360f3dc-72b0-4458-8212-ac4017461fd1.jpg)
+![Screen Shot 2022-06-05 at 10 47 16 PM](https://user-images.githubusercontent.com/2637636/172086084-355e6ef4-fa2c-4226-ad1d-2368075e2472.jpg)
 
 ### Data/Control Flow
 ![Screen Shot 2022-06-05 at 10 23 05 PM](https://user-images.githubusercontent.com/2637636/172084163-ce40b861-2ce5-4c67-a736-ab7591c4074d.jpg)
