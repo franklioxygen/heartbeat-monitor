@@ -30,7 +30,7 @@ app.get('/status', async (_: any, res: { send: (arg0: string) => void }) => {
       serial: sensor.serial,
       userName: sensor.userName,
       // if over 10 minutes, will show offline
-      onLine: new Date().getTime() > sensor.lastUpdated+1000*60*10,
+      onLine: new Date().getTime() < sensor.lastUpdated+1000*60*10,
     }
   });
   res.send(

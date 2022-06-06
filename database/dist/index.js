@@ -37,7 +37,7 @@ app.get('/status', (_, res) => __awaiter(void 0, void 0, void 0, function* () {
             serial: sensor.serial,
             userName: sensor.userName,
             // if over 10 minutes, will show offline
-            onLine: new Date().getTime() > sensor.lastUpdated + 1000 * 60 * 10,
+            onLine: new Date().getTime() < sensor.lastUpdated + 1000 * 60 * 10,
         };
     });
     res.send('<h1>Sensors Status</h1>' + JSON.stringify(status, null, '\n'));
