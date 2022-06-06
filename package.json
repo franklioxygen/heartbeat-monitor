@@ -1,0 +1,17 @@
+{
+  "name": "heart-beat-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm run start",
+    "backend": "cd backend && npm run dev",
+    "database": "cd database && npm run dev",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\" \"npm run database\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.1"
+  }
+}

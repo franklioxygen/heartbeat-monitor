@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+h2 {
+  margin-top: 10px;
+  font-family: monospace;
+}
+.user-container {
+  width: calc(100% - 10px);
+  background-color: gainsboro;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.meter-container {
+  width: 60px;
+  height: 150px;
+  /* border: 1px solid #896306; */
+  background-color: blanchedalmond;
+  margin: 5px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.records-container {
+  width: calc(100% - 80px);
+  height: 150px;
+  background-color: #eee;
+  margin: 5px 5px 5px 0;
+  border-radius: 10px;
+  float: right;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.records-scroll {
+  height: 150px;
+  float: left;
+  width: max-content;
+
+}
+.record-bar {
+  width: 5px;
+  background-color:darkgray;
+  border-top: 1px olivedrab solid;
+  float: right;
+  position: relative;
+}
+
+.read, .username, .time, .bar{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.time {
+  font-size: x-small;
+}
+
+.space {
+  transition: 0.5s;
+  background-color: blanchedalmond;
+  width: 30px;
+  margin: 0 15px 0 15px;
+  border-radius: 5px;
+}
+.bar {
+  width: 30px;
+  margin: 0 15px 0 15px;
+  border-radius: 5px;
+  transition: 0.5s;
+  animation-name: beatingColor;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes beatingColor {
+  0% {
+    background-color:rgb(22, 125, 31);
+  }
+  100% {
+    background-color: rgb(7, 100, 15);
+  }
+}

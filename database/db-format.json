@@ -1,0 +1,29 @@
+{
+  "sensors": [
+    {
+      "id": 1,
+      "serial": "HB-01",
+      "userName": "Homer",
+      "lastUpdated": 0
+    },
+    {
+      "id": 2,
+      "serial": "HB-02",
+      "userName": "Marge",
+      "lastUpdated": 0
+    },
+    {
+      "id": 3,
+      "serial": "HB-03",
+      "userName": "Lisa",
+      "lastUpdated": 0
+    },
+    {
+      "id": 4,
+      "serial": "HB-04",
+      "userName": "Bart",
+      "lastUpdated": 0
+    }
+  ],
+  "heartbeats": []
+}
